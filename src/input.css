@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Custome */
+
+@font-face {
+    font-family: IRANsans;
+    src: url(../fonts/IRANsans/IRANSans.ttf);
+}
+@utility container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@theme{
+    --breakpoint-Mobile: 20rem;
+    --breakpoint-Tablet: 48rem;
+    --breakpoint-Laptop: 64rem;
+    --breakpoint-Desktop: 80rem;
+    --breakpoint-Desktop-fule: 96rem;
+    --breakpoint-Desktop-2k: 120rem;
+}
