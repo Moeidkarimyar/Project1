@@ -18,4 +18,9 @@
     --breakpoint-Desktop: 80rem;
     --breakpoint-Desktop-fule: 96rem;
     --breakpoint-Desktop-2k: 120rem;
+    /* Colors */
+    --color-Custome-text: #E4FDE1;
+    --color-Custome-Bakgrand: #114B5F;
+    /* Fonts */
+    --font-IRANsans : IRANsans;
 }
