@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body class="bg-Custome-Bakgrand font-IRANsans">
+    <!-- Start -->
     <header class="header">
+        <!-- Top Bar -->
         <div class="top-bar">
             <div class="container">
                 <div class="top-bar__content flex justify-between h-12 p-4 bg-[#292F36]">
@@ -51,6 +53,7 @@
                 </div>
             </div>
         </div>
+        <!-- Menu -->
         <div class="main-header mt-4">
             <div class="container">
                 <div class="main-header__content flex justify-between">
@@ -61,17 +64,17 @@
                             <li class="main-header__item">
                                 <a href="#" class="main-header__link">صفحه اصلی</a>
                             </li>
-                            <li class="relative group main-header__item">
+                            <li class="relative group main-header__item transition-colors">
                                 <a href="#" class="main-header__link">صفحه اصلی
-                                    <li class="main-header__icon fas fa-angle-left"></li>
-                                    <ul class="main-header__dropdown absolute top-96 left-0 right-0 bg-amber-100 z-10 opacity-0 invisible li.group-hover:opacity-100 li.group-hover:visible">
-                                        <li class="main-header__dropdown-item">
+                                    <ul class="main-header__dropdown flex flex-col absolute tracking-normal transition-all w-44 top-10 left-0 right-0 bg-amber-100 border-b-4 border-[#C2185B] rounded-2xl p-4 z-10 opacity-0 invisible group-hover:opacity-100 group-hover:text-Custome-Bakgrand group-hover:visible">
+                                        <li class="main-header__dropdown-item mb-3 hover:text-[#AD1457]">
                                             <a href="#" class="main-header__dropdown-link">اموزش HTML</a>
                                         </li>
-                                        <li class="main-header__dropdown-item"><a href="#" class="main-header__dropdown-link">اموزش CSS</a></li>
-                                        <li class="main-header__dropdown-item"><a href="#" class="main-header__dropdown-link">اموزش JS</a></li>
+                                        <li class="main-header__dropdown-item mb-3 hover:text-[#AD1457]"><a href="#" class="main-header__dropdown-link">اموزش CSS</a></li>
+                                        <li class="main-header__dropdown-item mb-3 hover:text-[#AD1457]"><a href="#" class="main-header__dropdown-link">اموزش JS</a></li>
                                         <li class="main-header__dropdown-item"><a href="#" class="main-header__dropdown-link">اموزش FlexBox</a></li>
                                     </ul>
+                                    <li class="main-header__icon fas fa-angle-left"></li>
                                 </a>
                             </li>
                             <li class="main-header__item">
@@ -120,6 +123,16 @@
             </div>
         </div>
     </header>
+    <!-- End -->
+     <section class="landing">
+        <div class="container">
+            <h1 class="landing__title">با ما راهتو گم نمیکنی</h1>
+            <h2 class="landing__subtitle">با آکادمی دهکده برنامه نویسی با خیال راحت یادبگیر.</h2>
+            <div class="landing__searchbar">
+                <input type="text" class="landing__searchbar-input" placeholder="چه چیزی دوست داری یاد بگیری ...">
+            </div>
+        </div>
+     </section>
 <script src="./vendor/Font-awesome/all.min.js"></script>   
 </body>
 </html>
