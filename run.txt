@@ -1,7 +1,8 @@
 npx @tailwindcss/cli -i ./src/input.css -o ./styles/main.css --watch
 
 
-
+/دستور اول /
+git commit -a -m "مسیج درباره کار"
 
 / push /
 git push origin main
